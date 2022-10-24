@@ -1,6 +1,8 @@
 # bootcamp-portfolio
 Module 2 Challenge
 
+![Pumpkin Spiced!](assets/images/pumpkin_spiced_porfolio.png)
+
 ## Your Task
 Welcome to this week's Challenge! This is an even-numbered week, so you won't be given any starter code. Instead, you'll create a web application from scratch! This week, you'll build a portfolio page, which you can add to as the course progresses.
 
@@ -41,12 +43,14 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## TODO List
 
-* [ ] Create a page with the following items.
-    * [ ] Name
-    * [ ] A recent photo or avatar
-    * [ ] Links to sections about them, their work, and how to contact them
+* [x] Create a page with the following items.
+    * [x] Name
+    * [x] A recent photo or avatar
+    * [x] Links to sections about them, their work, and how to contact them
 * [ ] Create a `<nav>` section with links that scroll down to the corresponding section. (This might require some JavaScript.)
 * [ ] Create a link that scrolls down to the section about their work, where the work section has titled images of their previous applications.
-* [ ] On mouseover of a project's image, enlargen the image larger than the other images.
+* [x] On mouseover of a project's image, enlargen the image larger than the other images.
+    - Turns out this was a lot more easier that I thought. See [this](https://css-tricks.com/snippets/css/scale-on-hover-with-webkit-transition/).
 * [ ] On click of a project's image, go to that deployed application's page. (`<a href="...">...</a>`)
 * [ ] Apply responsive web design (RWD) to the page's design.
+* [x] Add a screenshot of this project
