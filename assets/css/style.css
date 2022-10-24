@@ -61,7 +61,23 @@ nav {
     height: 2em;
     margin-top: 0;
     padding: 3px;
+    /* position: relative; */
+    overflow: hidden;
 }
+
+.sticky {
+    position: sticky;
+    top: 0;
+    left: 5%;
+    width: 90%;
+    /*
+    margin-left: auto;
+    margin-right: auto;
+    */
+}
+
+.sticky + main { padding-top: 3px; }
+
 
 /* TODO: Make this RWD */
 .navmenu > ul {

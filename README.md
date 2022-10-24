@@ -48,10 +48,12 @@ THEN I am presented with a responsive layout that adapts to my viewport
     * [x] A recent photo or avatar
     * [x] Links to sections about them, their work, and how to contact them
 * [x] Create a `<nav>` section with links that scroll down to the corresponding section. 
-* [ ] **Create a link that scrolls down to the section about their work, where the work section has titled images of their previous applications.** (This might require some JavaScript.)
+* [x] Create a link that scrolls down to the section about their work, where the work section has titled images of their previous applications. (This requires some JavaScript.)
+  - Use `position: sticky`, not `position:fixed`, to make it work! 
 * [x] On mouseover of a project's image, enlargen the image larger than the other images.
     - Turns out this was a lot more easier that I thought. See [this](https://css-tricks.com/snippets/css/scale-on-hover-with-webkit-transition/).
-* [ ] On click of a project's image, go to that deployed application's page. (`<a href="...">...</a>`)
+* [x] On click of a project's image, go to that deployed application's page. (`<a href="...">...</a>`)
+  - Currently I don't have a whole lot deployed, so I just linked to the github repos.
 * [ ] **Apply responsive web design (RWD) to the page's design.** (What sizes?)
 * [x] Add a screenshot of this project
 
