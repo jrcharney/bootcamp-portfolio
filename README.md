@@ -47,10 +47,14 @@ THEN I am presented with a responsive layout that adapts to my viewport
     * [x] Name
     * [x] A recent photo or avatar
     * [x] Links to sections about them, their work, and how to contact them
-* [ ] Create a `<nav>` section with links that scroll down to the corresponding section. (This might require some JavaScript.)
-* [ ] Create a link that scrolls down to the section about their work, where the work section has titled images of their previous applications.
+* [x] Create a `<nav>` section with links that scroll down to the corresponding section. 
+* [ ] **Create a link that scrolls down to the section about their work, where the work section has titled images of their previous applications.** (This might require some JavaScript.)
 * [x] On mouseover of a project's image, enlargen the image larger than the other images.
     - Turns out this was a lot more easier that I thought. See [this](https://css-tricks.com/snippets/css/scale-on-hover-with-webkit-transition/).
 * [ ] On click of a project's image, go to that deployed application's page. (`<a href="...">...</a>`)
-* [ ] Apply responsive web design (RWD) to the page's design.
+* [ ] **Apply responsive web design (RWD) to the page's design.** (What sizes?)
 * [x] Add a screenshot of this project
+
+## Extras
+
+Though it wasn't part of the assignment, I snuck in some extra goodies. Try to find where I put them. ;)
