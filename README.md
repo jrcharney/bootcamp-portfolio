@@ -54,8 +54,22 @@ THEN I am presented with a responsive layout that adapts to my viewport
     - Turns out this was a lot more easier that I thought. See [this](https://css-tricks.com/snippets/css/scale-on-hover-with-webkit-transition/).
 * [x] On click of a project's image, go to that deployed application's page. (`<a href="...">...</a>`)
   - Currently I don't have a whole lot deployed, so I just linked to the github repos.
-* [ ] **Apply responsive web design (RWD) to the page's design.** (What sizes?)
+* [x] **Apply responsive web design (RWD) to the page's design.** (What sizes?)
+  - I did some of it. I still need to fix the nav bar for mobile platform. Meh, I'll just take a 90% and work on it later.
 * [x] Add a screenshot of this project
+
+### Quick list of Responsive Web Design sizes for media queries
+
+| Device              | Size   |
+|---------------------|--------|
+| Small phone         | 320px  |
+| Medium phone        | 375px  |
+| Large phone         | 425px  |
+| Tablet (portrait)   | 768px  |
+| Tablet (landscape)  | 1024px |
+| HD Computer screen  | 1024px |
+| HDR Computer Screen | 1440px |
+| 4K Screen           | 2560px |
 
 ## Extras
 
