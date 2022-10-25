@@ -6,7 +6,7 @@ const topLink = document.querySelector(".navmenu > ul > li:last-child");
 window.addEventListener('scroll', () => {
     if(window.scrollY >= nav.offsetTop){
         nav.classList.add("sticky");
-        topLink.setAttribute("style",'visibility:visibile;')
+        topLink.setAttribute("style",'visibility:visible;')
     }else{
         nav.classList.remove("sticky");
         topLink.setAttribute("style",'visibility:hidden;')
