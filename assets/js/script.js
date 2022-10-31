@@ -12,3 +12,9 @@ window.addEventListener('scroll', () => {
         topLink.setAttribute("style",'visibility:hidden;')
     }
 });
+
+/* Added a scroll function! Super simple! */
+document.querySelectorAll(".navmenu > ul > li > a").forEach((a) => a.addEventListener("click",(ev) => {
+    ev.preventDefault();
+    document.querySelector(ev.target.getAttribute("href")).scrollIntoView({behavior: "smooth"});
+}));
