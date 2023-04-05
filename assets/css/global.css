@@ -96,3 +96,9 @@ blockquote {
 .ribbon a[href]:hover{
     color: #333;
 }
+
+.icon {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
